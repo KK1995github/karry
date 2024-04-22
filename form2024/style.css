@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    background-color: grey;
+}
+.main{
+    width: 98%;
+    height: 100%;
+    text-align: center;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    display: flex;
+    
+    margin: 5px 10px;
+    padding: 5px;
+}
+header h2{
+    font-weight: 400;
+    font-size: 20px;
+}
+header i{
+    margin-left: 10px;
+    margin-top: 5px;
+    padding: 4px;
+}
+header span{
+    color: gray;
+    margin-top: 8px;
+}
+
+
+
+/* topdiv */
+.topdiv{
+    display: block;
+    width: 100%;
+    margin: 10px 10px;
+    border: 1px solid silver;
+    padding: 10px;
+}
+.topdiv .innerdiv{
+    display: flex;
+
+}
+.topdiv h3{
+    text-align: left;
+    font-weight: 400;
+  margin-bottom: 10px;
+  border-bottom: 1px solid silver;
+  padding: 4px;
+}
+.topdiv h3 span{
+    font-size: 14px;
+    margin-left: 15px;
+    color: gray;
+}
+.topdiv .innerdiv{
+    text-align: left;
+}
+.ldiv{
+    /* background-color: yellowgreen; */
+    width: 50%;
+}
+.Rdiv{
+    width: 50%;
+}
+.innerdiv .ldiv , .Rdiv{ 
+    text-align: left; 
+    
+
+}
+.innerdiv .ldiv label{
+    font-weight: 600;
+    font-size: 13px; 
+    padding: 5px;
+    margin-top: 10px;
+}
+.innerdiv .Rdiv label{
+    font-weight: 600;
+    font-size: 13px; 
+    padding: 5px;
+    margin-top: 12px;
+    margin-left: 15px;
+}
+.innerdiv .ldiv input, .Rdiv input{
+    padding: 10px;
+    width: 300px;
+    height: 35px;
+    margin-top: 10px;
+    border: 1px solid silver;
+    border-radius: 20px;
+    margin-left: 15%;
+ 
+}
+.innerdiv .Rdiv label{
+    margin-top: 10px;
+} 
+
+
+/* bottom div */
+.bottom-div{
+    width: 100%;
+    margin-left: 10px;
+    display: flex;
+
+    justify-content: space-between;
+    
+}
+.main .bottom-div p{
+    margin: 5px;
+    text-align: left;
+
+    border-bottom: 1px solid silver;
+    padding: 5px;
+}
+.main .bottom-div p h2{
+    font-weight: 400;
+}
+
+.main .bottom-div .left-div{
+    text-align: left;
+    border: 2px silver solid;
+    width: 49%;
+    height: 95%;
+    display: block; 
+}
+
+.main .bottom-div .Right-div{
+ 
+    border: 2px silver solid;
+    width: 49%;
+    height: 95%;
+    margin-left: 10px;
+    /* background-color: yellow; */
+}
+.main .bottom-div .left-div label{
+    text-align: left;
+    font-weight: 600;
+    font-size: 13px; 
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.main .bottom-div .left-div input{
+
+    width: 300px;
+    height: 35px;
+    margin-top: 8px;
+    border: 1px solid silver;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+
+.main .bottom-div .Right-div label{
+    margin-top: 15px;
+    text-align: left;
+    font-weight: 600;
+    font-size: 13px; 
+    margin-left: 20px;
+
+}
+
+.main .bottom-div .Right-div input{
+    width: 300px;
+    height: 35px;
+    margin-top: 8px;
+    border: 1px solid silver;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+
+.main .bottom-div select{
+    padding: 2px;
+    margin: 2px;
+    width: 300px;
+    border: 1px solid silver;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+.inputStyle{
+    margin-right: 30%;
+    border-radius: 20px;
+}
+i{
+    left: 400px;
+    cursor: pointer;
+}
+.fa-plus{
+text-align: center;
+padding: 6px;
+color: white;
+margin-left:1px
+  
+}
+.fa-calendar{
+    padding: 6px;
+}
+.inputStylehead{
+    border-top-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+
+}

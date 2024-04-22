@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="main">
+        <header>
+            <h2 >Courier Managemnt </h2><i class="fa-solid fa-angles-right"></i> <span style="font-size: 14px;">Bookings(s)</span> <i
+                class="fa-solid fa-angles-right"></i> <span style="font-size: 14px;">New Courier</span>
+        </header>
+        <!-- top div -->
+
+        <div class="topdiv">
+            <h3> Client <span style="font-size: 12px;">Detail(s)</span></h3>
+            <div class="innerdiv">
+                <div class="ldiv">
+                    <div style="display: flex;">
+
+                    <label for="Booking Data">Booking Date</label>
+                    <input type="text" placeholder="Selecte Date" class="inputStylehead">
+
+                    <div style=" border-left: 2px solid; margin-left: -34px; width: 30px; height: 30px; margin-top: 12px;">
+                        <i class="fa-solid fa-calendar"></i>
+                    </div>
+
+                    </div>
+                    <br>
+                    <label for="Search Client">Search Client</label>
+                    <input type="text" placeholder="Using Mobile No. or Name">
+                </div>
+
+                <div class="Rdiv">
+                    <div style="display: flex;">
+                    <label>Save Receiver ?</label>
+                    <input type="text" placeholder="No">
+                    </div>
+                    <br>
+                    <label>Search Receiver</label>
+                    <input type="text" placeholder="Using Mobile No. or Name">
+                </div>
+            </div>
+        </div>
+
+        <!-- bottom div -->
+        <div class="bottom-div">
+            <!-- leftdiv -->
+            <div class="left-div">
+                <h2 style="font-weight: 400; padding-top: 12px; margin-left: 10px; font-size: 18px">Sender/Consignor <span style="color: gray;font-size: 12px; margin-left: 12px;">Detail(s)</span></h2>
+                <p style="border-bottom: 1px solid silver;"></p>
+                <div style="display: flex; justify-content: space-between; align-self:ce; ">
+
+                    <label>Name</label>
+                    <input type="text" name="name" style="margin-right: 30%;">
+                </div>
+                <div style="display: flex; justify-content: space-between; ">
+
+                    <label>Mobile No.</label>
+                    <input type="text" name="name" style="margin-right: 30%;">
+                </div>
+                <div style="display: flex; justify-content: space-between; ">
+
+                    <label>Email</label>
+                    <input type="text" name="name" style="margin-right: 30%;">
+                </div>
+                <div style="display: flex; justify-content: space-between; ">
+
+                    <label>AddressLine 1</label>
+                    <input type="text" name="name" style="margin-right: 30%;">
+                </div>
+                <div style="display: flex; justify-content: space-between; ">
+
+                    <label>AddressLine 2</label>
+                    <input type="text" name="name" style="margin-right: 30%;">
+                </div>
+
+                <div style="display: flex; justify-content: space-between; ">
+
+                    <label>Country</label>
+                    <select name="Country" id="Country"
+                        style="margin-right: 30%; border-radius: 20px;height: 35px; margin-top: 8px;">
+                        <option value="India">India</option>
+                        <option value="India">China</option>
+                        <option value="India">Pakistan</option>
+                        <option value="India">Iran</option>
+                        <option value="India">U.S.A</option>
+                    </select>
+                </div>
+                <div style="display: flex;width: 80%;">
+
+                    <label>State</label>
+
+                    <select name="" id=""
+                        style="margin-left: 28%; border-radius: 20px;height: 35px; width: 52%; margin-top: 8px;">
+                        <option value=""></option>
+                    </select>
+                    <div
+                    style= " border: 1px solid gray; border-radius: 50px; width: 30px; height: 30px; background-color: rgb(21, 91, 120);      margin-top: 12px;
+                    margin-left: 2px;">
+                        <i class="fa-solid fa-plus"></i>
+    
+                    </div>
+                </div>
+                <div style="display: flex;width: 80%;">
+
+                    <label>Dist.</label>
+
+                    <select name="" id=""
+                        style="margin-left: 28%; border-radius: 20px;height: 35px; width: 52%; margin-top: 8px;">
+                        <option value=""></option>
+                    </select>
+                    <div
+                        style=" border: 1px solid gray; border-radius: 50px; width: 30px; height: 30px; background-color: rgb(21, 91, 120);      margin-top: 12px;
+                        margin-left: 6px;">
+                        <i class="fa-solid fa-plus"></i>
+    
+                    </div>
+                </div>
+                <div style="display: flex; justify-content: space-between; ">
+
+                    <label>City/Town 2</label>
+                    <input type="text" name="name" style="margin-right: 30%;border-radius: 20px;height: 35px;" />
+                </div>
+                <div style="display: flex; justify-content: space-between; ">
+
+                    <label>Pincode/Zipcode </label>
+                    <input type="text" name="name" style="margin-right: 30%;">
+                </div>
+                <div style="display: flex; justify-content: space-between; ">
+
+                    <label>Landmark</label>
+                    <input type="text" name="name" style="margin-right: 30%;" />
+                </div>
+
+            </div>
+
+            <!-- Rightdiv -->
+            <div class="Right-div">
+                <h2 style="padding-top: 12px;  font-weight: 400; margin-left: 10px; text-align: left; font-size: 18px; ;">Receiver/Consignor <span style="color: gray;font-size:12px; margin-left: 12px; ">Detail(s)</span></h2>
+                <p style="border-bottom: 1px solid silver;"></p>
+
+                <div style="display: flex; justify-content: space-between;;">
+
+                    <label>Name</label>
+                    <input type="text" name="name" style="margin-right: 30%;">
+                </div>
+                <div style="display: flex; justify-content: space-between;  ">
+
+                    <label>Mobile No.</label>
+                    <input type="text" name="name" style="margin-right: 30%;">
+                </div>
+                <div style="display: flex; justify-content: space-between;  ">
+
+                    <label>Email</label>
+                    <input type="text" name="name" style="margin-right: 30%;">
+                </div>
+                <div style="display: flex; justify-content: space-between;  ">
+
+                    <label>AddressLine 1</label>
+                    <input type="text" name="name" style="margin-right: 30%;">
+                </div>
+                <div style="display: flex; justify-content: space-between;  ">
+
+                    <label>AddressLine 2</label>
+                    <input type="text" name="name" style="margin-right: 30%;">
+                </div>
+
+                <div style="display: flex; justify-content: space-between;  ">
+
+                    <label>Country</label>
+                    <select name="Country" id="Country"
+                        style=" margin-right: 30%; border-radius: 20px;height: 35px; margin-top: 8px;">
+                        <option value="India">India</option>
+                        <option value="India">China</option>
+                        <option value="India">Pakistan</option>
+                        <option value="India">Iran</option>
+                        <option value="India">U.S.A</option>
+                    </select>
+                </div>
+                <div style="display: flex; justify-content: space-between;">
+
+                    <label>State</label>
+                    <select name="State" id="State"
+                        style="margin-right: 30%;border-radius: 20px;height: 35px;margin-top: 8px;">
+                        <option value=""></option>
+                    </select>
+                    <!-- <i class="fa-solid fa-plus"></i> -->
+                </div>
+                <div style="display: flex; justify-content: space-between;">
+
+                    <label>Distt</label>
+                    <select name="Distt" id="Distt"
+                        style="margin-right: 30%;border-radius: 20px;height: 35px;margin-top: 8px;">
+                        <option value=""></option>
+                    </select>
+                    <!-- <i class="fa-solid fa-plus"></i> -->
+                </div>
+                <div style="display: flex; justify-content: space-between; ">
+
+                    <label>City/Town 2</label>
+                    <input type="text" name="name" class="inputStyle">
+                </div>
+                <div style="display: flex; justify-content: space-between; ">
+
+                    <label>Pincode/Zipcode </label>
+                    <input type="text" name="name" class="inputStyle">
+                </div>
+                <div style="display: flex; justify-content: space-between;">
+
+                    <label>Landmark</label>
+                    <input type="text" name="name" class="inputStyle">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
